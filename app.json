@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "stopwatch",
+    "slug": "stopwatch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/favicon.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sangram12.stopwatch"
+    },
+    "web": {
+      "favicon": "./assets/favicon.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d78444c0-5cc8-4d98-8962-391d3fd44e03"
+      }
+    }
+  }
+}
